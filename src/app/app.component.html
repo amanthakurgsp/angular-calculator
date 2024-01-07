@@ -2,8 +2,106 @@
   <div class="w-full mx-auto rounded-xl shadow-xl text-gray-800 relative overflow-hidden max-w-96">
     <h1 class="text-center text-white py-10 text-3xl font-bold">Angular Calculator</h1>
     <div class="w-full h-40 bg-gradient-to-b from-gray-800 to-gray-700 text-right">
-      <div class="w-full p-5 text-2xl text-white font-thin">
-           Function
+      <!-- function screen -->
+      <div class="w-full py-5 px-6 text-2xl text-white font-thin">
+        Function
+      </div>
+      <!-- number screen -->
+      <div class="w-full py-5 px-6 text-6xl text-white font-thin">
+        50
+      </div>
+    </div>
+    <!-- button screen area-->
+    <div class="w-full bg-gradient-to-b from-red-500 to-red-800">
+      <!-- first row -->
+      <div class="flex  w-full">
+        <!-- clear button -->
+        <div class="w-2/4 border-r border-b border-red-400">
+          <button
+            class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white  text-xl font-light">C</button>
+        </div>
+        <!-- percentage button -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button
+            class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">%</button>
+        </div>
+        <!-- divide button -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button
+            class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">/</button>
+        </div>
+      </div>
+      <!-- second row -->
+      <div class="flex w-full">
+        <!-- number 7 -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">7</button>
+        </div>
+        <!-- number 8 -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">8</button>
+        </div>
+        <!-- number 9 -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">9</button>
+        </div>
+         <!-- multiple button -->
+         <div class="w-1/4 border-r border-b border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">*</button>
+        </div>
+      </div>
+      <!-- third row -->
+      <div class="flex w-full">
+        <!-- number 4 -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">4</button>
+        </div>
+        <!-- number 5 -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">5</button>
+        </div>
+        <!-- number 6 -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">6</button>
+        </div>
+         <!-- minus button -->
+         <div class="w-1/4 border-r border-b border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">-</button>
+        </div>
+      </div>
+      <!-- fourth row -->
+      <div class="flex w-full">
+        <!-- number 1 -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">1</button>
+        </div>
+        <!-- number 2 -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">2</button>
+        </div>
+        <!-- number 3 -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">3</button>
+        </div>
+         <!-- plus button -->
+         <div class="w-1/4 border-r border-b border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">+</button>
+        </div>
+      </div>
+      <!-- fifth row -->
+      <div class="flex w-full">
+        <!-- number 0 -->
+        <div class="w-1/4 border-r  border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">0</button>
+        </div>
+        <!-- decimal sign -->
+        <div class="w-1/4 border-r  border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">.</button>
+        </div>
+        <!-- equal sign -->
+        <div class="w-2/4 border-r  border-red-400">
+          <button class="w-full h-16 outline-none focus:outline-none hover:bg-red-700 hover:bg-opacity-20 text-white text-xl font-light">=</button>
+        </div>
       </div>
     </div>
   </div>
